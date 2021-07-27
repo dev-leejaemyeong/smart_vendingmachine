@@ -1,0 +1,794 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/layout"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:id="@+id/dLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="    판매 현황 "
+                android:background="#00000000"
+                android:textColor="@color/white"
+                android:fontFamily="@font/holtwood_one_sc"
+                android:textSize="30dp"
+
+                />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+                    android:padding="1dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+
+                        android:background="#777777"
+
+                        android:gravity="center_horizontal"
+                        android:text="종류"
+
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="재고"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="판매량"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/remains1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/sales1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/name2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/remains2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/sales2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/name3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/remains3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/sales3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/aLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="    누적 판매량 "
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="종류"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="누적판매량"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="누적판매금액"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/aname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asales1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asalesprice1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/aname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asales2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asalesprice2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/aname3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asales3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/asalesprice3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="    월별 판매량 "
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="종류"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="판매량"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="판매금액"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/mname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msales1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msalesprice1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/mname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msales2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msalesprice2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/mname3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msales3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/msalesprice3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/holtwood_one_sc"
+                android:gravity="center"
+                android:text="    오늘 판매량 "
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#000000"
+
+                    android:padding="1dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+
+                        android:gravity="center_horizontal"
+                        android:text="종류"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="판매량"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#777777"
+                        android:gravity="center_horizontal"
+                        android:text="판매금액"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/tname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsales1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsalesprice1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/tname2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsales2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsalesprice2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#000000"
+                    android:padding="1dp">
+
+                    <TextView
+                        android:id="@+id/tname3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="name"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsales3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+
+                    <TextView
+                        android:id="@+id/tsalesprice3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:background="#ffffff"
+                        android:gravity="center_horizontal"
+                        android:text="number"
+                        android:textSize="30sp" />
+                </TableRow>
+
+            </TableLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#00000000"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/dbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:text="판매현황 데이터" />
+
+        <Button
+            android:id="@+id/abtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:text="누적 판매량" />
+
+        <Button
+            android:id="@+id/mbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:text="월별 판매량" />
+
+        <Button
+            android:id="@+id/tbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+
+            android:text="오늘 판매량" />
+    </LinearLayout>
+
+
+</LinearLayout>
+
